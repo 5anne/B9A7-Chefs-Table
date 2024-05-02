@@ -4,10 +4,10 @@ const Navbar = () => {
     return (
         <div>
             <div className="flex justify-around items-center my-8 lg:my-12 mx-8 lg:mx-16">
-                <div className="">
+                <div className="flex-1">
                     <h2 className="text-xl lg:text-2xl font-bold">Recipe Calories</h2>
                 </div>
-                <div className="hidden md:flex">
+                <div className="hidden md:flex flex-1">
                     <ul className="text-[#150B2BB3] font-semibold">
                         <a className="mx-4">Home</a>
                         <a className="mx-4">Recipes</a>
