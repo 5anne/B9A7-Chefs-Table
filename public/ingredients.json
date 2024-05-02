@@ -1,0 +1,117 @@
+[
+  {
+    "recipe_image": "https://i.postimg.cc/qRwBsj4G/Rectangle-20170.png",
+    "recipe_id": "1",
+    "recipe_name": "Spaghetti Bolognese",
+    "short_description": "Classic Italian pasta dish with savory meat sauce.",
+    "ingredients": [
+      "500g ground beef",
+      "1 onion, chopped",
+      "2 cloves garlic, minced",
+      "400 g mushrooms"
+    ],
+    "preparing_time": "30 min",
+    "calories": "600 calories"
+  },
+  {
+    "recipe_image": "https://i.postimg.cc/SK27n528/Rectangle-20170-1.png",
+    "recipe_id": "2",
+    "recipe_name": "Chicken Caesar Salad",
+    "short_description": "Classic Italian pasta dish with savory meat sauce.",
+    "ingredients": [
+      "500g ground beef",
+      "1 onion, chopped",
+      "2 cloves garlic, minced",
+      "400 g mushrooms"
+    ],
+    "preparing_time": "30 min",
+    "calories": "600 calories"
+  },
+  {
+    "recipe_image": "https://i.postimg.cc/DZGBpcG9/118092355.jpg",
+    "recipe_id": "3",
+    "recipe_name": "Vegetable Curry",
+    "short_description": "A fragrant and spicy curry loaded with assorted vegetables.",
+    "ingredients": [
+      "300 g potatoes",
+      "200 g carrots",
+      "1 can coconut milk",
+      "250 g green beans"
+    ],
+    "preparing_time": "45 min",
+    "calories": "280 calories"
+  },
+  {
+    "recipe_image": "https://i.postimg.cc/BnnW7tgq/R.jpg",
+    "recipe_id": "4",
+    "recipe_name": "Grilled Salmon with Asparagus",
+    "short_description": "Delicious grilled salmon served with roasted asparagus spears.",
+    "ingredients": [
+      "4 salmon fillets",
+      "500 g asparagus",
+      "2 tbsp olive oil",
+      "Salt and pepper to taste"
+    ],
+    "preparing_time": "25 min",
+    "calories": "380 calories"
+  },
+  {
+    "recipe_image": "https://i.postimg.cc/7Y5bFQhJ/f65b5d12e8044a2f4bce99869d5f2dc5.jpg",
+    "recipe_id": "5",
+    "recipe_name": "Caprese Salad",
+    "short_description": "A classic Italian salad with fresh tomatoes, mozzarella, and basil.",
+    "ingredients": [
+      "4 ripe tomatoes",
+      "250 g fresh mozzarella",
+      "1 bunch fresh basil",
+      "2 tbsp balsamic vinegar"
+    ],
+    "preparing_time": "15 min",
+    "calories": "220 calories"
+  },
+  {
+    "recipe_image": "https://i.postimg.cc/PJBVrRjr/1404-Vegan-Pasta-Primavera-004.jpg",
+    "recipe_id": "6",
+    "recipe_name": "Pasta Primavera",
+    "short_description": "A colorful pasta dish with assorted vegetables and a creamy sauce.",
+    "ingredients": [
+      "400 g pasta",
+      "1 red bell pepper",
+      "1 yellow bell pepper",
+      "1 zucchini",
+      "1 carrot"
+    ],
+    "preparing_time": "35 min",
+    "calories": "350 calories"
+  },
+  {
+    "recipe_image": "https://i.postimg.cc/Y02jGjLj/cool-mom-eats-weekly-meal-plan-brown-butter-lemon-garlic-shrimp-Rasa-Malaysia.jpg",
+    "recipe_id": "7",
+    "recipe_name": "Lemon Garlic Shrimp",
+    "short_description": "Tender shrimp sautéed with garlic, lemon, and herbs.",
+    "ingredients": [
+      "500 g shrimp",
+      "4 cloves garlic",
+      "1 lemon",
+      "2 tbsp butter",
+      "2 tbsp chopped parsley"
+    ],
+    "preparing_time": "20 min",
+    "calories": "250 calories"
+  },
+  {
+    "recipe_image": "https://i.postimg.cc/6qbgr1qn/peruvian-quinoa-bowl-76-web.jpg",
+    "recipe_id": "8",
+    "recipe_name": "Vegetable Quinoa Bowl",
+    "short_description": "A nutritious bowl packed with quinoa, roasted vegetables, and avocado.",
+    "ingredients": [
+      "200 g quinoa",
+      "1 sweet potato",
+      "1 red onion",
+      "1 bell pepper",
+      "1 avocado"
+    ],
+    "preparing_time": "30 min",
+    "calories": "320 calories"
+  }
+]
