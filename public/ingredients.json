@@ -10,8 +10,8 @@
       "2 cloves garlic, minced",
       "400 g mushrooms"
     ],
-    "preparing_time": "30 min",
-    "calories": "600 calories"
+    "preparing_time": 30,
+    "calories": 600
   },
   {
     "recipe_image": "https://i.postimg.cc/SK27n528/Rectangle-20170-1.png",
@@ -19,13 +19,13 @@
     "recipe_name": "Chicken Caesar Salad",
     "short_description": "Classic Italian pasta dish with savory meat sauce.",
     "ingredients": [
-      "500g ground beef",
-      "1 onion, chopped",
-      "2 cloves garlic, minced",
-      "400 g mushrooms"
+      "300 g Arborio rice",
+      "500 g mushrooms",
+      "1 liter vegetable broth",
+      "100 g Parmesan cheese"
     ],
-    "preparing_time": "30 min",
-    "calories": "600 calories"
+    "preparing_time": 40,
+    "calories": 420
   },
   {
     "recipe_image": "https://i.postimg.cc/DZGBpcG9/118092355.jpg",
@@ -38,8 +38,8 @@
       "1 can coconut milk",
       "250 g green beans"
     ],
-    "preparing_time": "45 min",
-    "calories": "280 calories"
+    "preparing_time": 45,
+    "calories": 280
   },
   {
     "recipe_image": "https://i.postimg.cc/BnnW7tgq/R.jpg",
@@ -52,8 +52,8 @@
       "2 tbsp olive oil",
       "Salt and pepper to taste"
     ],
-    "preparing_time": "25 min",
-    "calories": "380 calories"
+    "preparing_time": 25,
+    "calories": 380
   },
   {
     "recipe_image": "https://i.postimg.cc/7Y5bFQhJ/f65b5d12e8044a2f4bce99869d5f2dc5.jpg",
@@ -66,8 +66,8 @@
       "1 bunch fresh basil",
       "2 tbsp balsamic vinegar"
     ],
-    "preparing_time": "15 min",
-    "calories": "220 calories"
+    "preparing_time": 15,
+    "calories": 220
   },
   {
     "recipe_image": "https://i.postimg.cc/PJBVrRjr/1404-Vegan-Pasta-Primavera-004.jpg",
@@ -81,8 +81,8 @@
       "1 zucchini",
       "1 carrot"
     ],
-    "preparing_time": "35 min",
-    "calories": "350 calories"
+    "preparing_time": 35,
+    "calories": 350
   },
   {
     "recipe_image": "https://i.postimg.cc/Y02jGjLj/cool-mom-eats-weekly-meal-plan-brown-butter-lemon-garlic-shrimp-Rasa-Malaysia.jpg",
@@ -96,8 +96,8 @@
       "2 tbsp butter",
       "2 tbsp chopped parsley"
     ],
-    "preparing_time": "20 min",
-    "calories": "250 calories"
+    "preparing_time": 20,
+    "calories": 250
   },
   {
     "recipe_image": "https://i.postimg.cc/6qbgr1qn/peruvian-quinoa-bowl-76-web.jpg",
@@ -111,7 +111,7 @@
       "1 bell pepper",
       "1 avocado"
     ],
-    "preparing_time": "30 min",
-    "calories": "320 calories"
+    "preparing_time": 30,
+    "calories": 320
   }
 ]

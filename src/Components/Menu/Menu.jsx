@@ -1,8 +1,8 @@
+import PropTypes from 'prop-types';
 
+const Menu = ({item,  selectedFood}) => {
+    const {recipe_image, recipe_name, short_description, ingredients, preparing_time, calories } = item;
 
-const Menu = ({ item }) => {
-    const { recipe_id, recipe_image, recipe_name, short_description, ingredients, preparing_time, calories } = item;
-    console.log(recipe_id);
     return (
         <div className="border rounded-xl p-8">
             <img className="w-80 h-50 rounded-xl" src={recipe_image} alt="" />
@@ -17,16 +17,20 @@ const Menu = ({ item }) => {
             <div className="flex items-center text-[#282828CC] gap-4 my-2">
                 <div className="flex items-center gap-2">
                     <i className="fa-regular fa-clock"></i>
-                    <p>{preparing_time}</p>
+                    <p>{preparing_time} minutes</p>
                 </div>
                 <div className="flex items-center gap-2">
                     <img src="src/assets/Images/Vector (4).svg" alt="" />
-                    <p>{calories}</p>
+                    <p>{calories} calories</p>
                 </div>
             </div>
-            <button className="bg-[#0BE58A] text-black font-bold py-2 rounded-3xl px-4 mt-4">Want to Cook</button>
+            <button onClick={() => selectedFood(item)} className="bg-[#0BE58A] text-black font-bold py-2 rounded-3xl px-4 mt-4">Want to Cook</button>
         </div>
     );
 };
+
+Menu.propTypes = {
+    selectedFood: PropTypes.func
+}
 
 export default Menu;
