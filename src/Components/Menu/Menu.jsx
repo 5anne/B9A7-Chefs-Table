@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 
-const Menu = ({item,  selectedFood}) => {
-    const {recipe_image, recipe_name, short_description, ingredients, preparing_time, calories } = item;
+const Menu = ({ item, selectedFood }) => {
+    const { recipe_image, recipe_name, short_description, ingredients, preparing_time, calories } = item;
 
     return (
         <div className="border rounded-xl p-8">
@@ -20,7 +20,7 @@ const Menu = ({item,  selectedFood}) => {
                     <p>{preparing_time} minutes</p>
                 </div>
                 <div className="flex items-center gap-2">
-                    <img src="src/assets/Images/Vector (4).svg" alt="" />
+                    <i className="fa-solid fa-fire"></i>
                     <p>{calories} calories</p>
                 </div>
             </div>
