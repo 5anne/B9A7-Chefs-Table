@@ -6,7 +6,8 @@ import Navbar from './Components/Navbar/Navbar'
 import Recipe from './Components/Recipe/Recipe'
 import Cook from './Components/Cook/Cook'
 import Menubar from './Components/Menubar/Menubar'
-import Toast from './Components/Toast/Toast'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
 
@@ -16,15 +17,14 @@ function App() {
   const [prepTime, setPrepTime] = useState(0);
   const [calory, setCalory] = useState(0);
   const [count, setCount] = useState([]);
-  const [toast, setToast] = useState([]);
-
 
   useEffect(() => {
     fetch('ingredients.json')
       .then(res => res.json())
-      .then(data => setMenu(data))
-  }
-  )
+      .then(data => setMenu(data));
+  }, []);
+
+  const notify = () => toast("Already exist");
 
   const selectedFood = (item) => {
     const flag = count.filter(num => num === item.recipe_id);
@@ -34,9 +34,8 @@ function App() {
       setItems(newItem);
     }
     else {
-      setToast(toast);
+      notify();
     }
-
     const newCount = [...count, item.recipe_id];
     setCount(newCount);
   }
@@ -55,14 +54,13 @@ function App() {
       <Navbar></Navbar>
       <Banner></Banner>
       <Recipe></Recipe>
-      <div className='lg:flex gap-8 mx-8 lg:mx-16'>
+      <div className='lg:flex gap-8 mx-8 lg:mx-16 mb-12'>
         <Menubar menu={menu} selectedFood={selectedFood}></Menubar>
-        <Toast toast = {toast}></Toast>
         <div className='lg:w-1/3 border rounded-xl p-8 h-max'>
-          <Cook items={items} prepareFood={prepareFood} cooking={cooking} prepTime={prepTime} calory={calory} count={count}></Cook>
+          <Cook items={items} prepareFood={prepareFood} cooking={cooking} prepTime={prepTime} calory={calory}></Cook>
         </div>
       </div>
-      
+      <ToastContainer />
     </>
   )
 }

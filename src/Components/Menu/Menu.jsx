@@ -24,7 +24,7 @@ const Menu = ({item,  selectedFood}) => {
                     <p>{calories} calories</p>
                 </div>
             </div>
-            <button onClick={() => selectedFood(item)} className="bg-[#0BE58A] text-black font-bold py-2 rounded-3xl px-4 mt-4">Want to Cook</button>
+            <button onClick={() => selectedFood(item)} className="bg-[#0BE58A] hover:bg-green-300 text-black font-bold py-2 rounded-3xl px-4 mt-4">Want to Cook</button>
         </div>
     );
 };

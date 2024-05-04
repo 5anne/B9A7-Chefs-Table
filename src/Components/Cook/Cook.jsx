@@ -1,5 +1,4 @@
 
-
 const Cook = ({ items, prepareFood, cooking, prepTime, calory }) => {
 
     // console.log(items);
@@ -21,7 +20,7 @@ const Cook = ({ items, prepareFood, cooking, prepTime, calory }) => {
                             <td className="w-[100px]">{item.recipe_name}</td>
                             <td className="mr-6">{item.preparing_time} minutes</td>
                             <td className="mr-4">{item.calories} calories</td>
-                            <td><button onClick={() => prepareFood(item.recipe_id, item)} className="bg-[#0BE58A] text-black font-semibold text-sm py-2 rounded-3xl px-2">Preparing</button></td>
+                            <td><button onClick={() => prepareFood(item.recipe_id, item)} className="bg-[#0BE58A] hover:bg-green-300 text-black font-semibold text-sm py-2 rounded-3xl px-2">Preparing</button></td>
                         </tr>
                     ))
                 }
